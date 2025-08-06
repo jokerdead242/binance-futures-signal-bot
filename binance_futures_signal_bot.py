@@ -132,4 +132,5 @@ def run_scanner():
         time.sleep(SLEEP_TIME)
 
 # Для запуска раскомментируй строку ниже:
-# run_scanner()
+# if __name__ == "__main__":
+    start_scanner()
