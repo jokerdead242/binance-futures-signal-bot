@@ -7,7 +7,7 @@ from ta.volatility import BollingerBands
 from ta.momentum import RSIIndicator
 
 # === Настройки ===
-INTERVAL = "3m"
+INTERVAL = "30m"
 LIMIT = 200
 SLEEP_TIME = 180  # 3 минуты
 BINANCE_FUTURES_ENDPOINT = "https://fapi.binance.com"
